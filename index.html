@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Talal Nafees — AI Engineer & Systems Developer. BS-AI, University of Sialkot.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Talal Nafees — AI Engineer &amp; Systems Developer</title>
+</head>
+<body>
+
+    <svg width="0" height="0" style="position:absolute">
+        <defs>
+            <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8b6bff"></stop>
+                <stop offset="100%" stop-color="#ff6bcb"></stop>
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <div class="aurora" aria-hidden="true">
+        <span class="aurora__blob aurora__blob--1"></span>
+        <span class="aurora__blob aurora__blob--2"></span>
+        <span class="aurora__blob aurora__blob--3"></span>
+    </div>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Talal Nafees</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <i class="nav__close" id="nav-close">&times;</i>
+            </div>
+
+            <div class="nav__btns">
+                <i class="nav__toggle" id="nav-toggle">
+                    <span></span><span></span><span></span>
+                </i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container">
+                <div class="home__grid">
+                    <div class="home__copy">
+                        <span class="home__eyebrow">AI Engineer &amp; Systems Developer</span>
+                        <h1 class="home__title">
+                            Building where <span class="grad-text">intelligence</span><br>
+                            meets the <span class="grad-text grad-text--alt">machine</span>.
+                        </h1>
+                        <p class="home__description">
+                            Final-year BS-AI student crafting work that spans two layers most people keep separate — the operating system underneath, and the models running on top of it.
+                        </p>
+                        <div class="home__buttons">
+                            <a href="assets/pdf/Talal-Nafees-CV.pdf" download class="button">Download CV</a>
+                            <a href="#contact" class="button button--ghost">Get in touch</a>
+                        </div>
+                    </div>
+
+                    <div class="home__portrait">
+                        <div class="home__portrait-glow"></div>
+                        <img src="assets/img/talal.jpg" alt="Talal Nafees" class="home__portrait-img">
+                    </div>
+                </div>
+
+                <div class="home__stats">
+                    <div class="home__stat">
+                        <span class="home__stat-number">98.3%</span>
+                        <span class="home__stat-label">test accuracy, CCTV violence detection</span>
+                    </div>
+                    <div class="home__stat">
+                        <span class="home__stat-number">2.70&times;</span>
+                        <span class="home__stat-label">speedup, distributed data pipeline</span>
+                    </div>
+                    <div class="home__stat">
+                        <span class="home__stat-number">4</span>
+                        <span class="home__stat-label">shipped systems &amp; AI projects</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="container">
+                <span class="section__eyebrow">About</span>
+                <h2 class="section__title">Two disciplines, one practice</h2>
+
+                <div class="about__layout">
+                    <p class="about__description">
+                        I'm an aspiring AI engineer and systems developer with a practical foundation that spans the operating system and the model running on it. Recent work includes a userspace daemon that reaches into the Linux scheduler directly, a CCTV violence-detection pipeline judged on real accuracy numbers, and a distributed data pipeline benchmarked against plain Pandas. I like problems that don't stay inside one layer of the stack.
+                    </p>
+
+                    <div class="about__cards">
+                        <div class="about__card">
+                            <span class="about__card-tag grad-tag--violet">Systems</span>
+                            <p>C, Linux kernel APIs, <code>/proc</code> introspection, CPU scheduling &amp; affinity.</p>
+                        </div>
+                        <div class="about__card">
+                            <span class="about__card-tag grad-tag--pink">AI / ML</span>
+                            <p>TensorFlow/Keras, CNN/RNN/LSTM pipelines, transfer learning.</p>
+                        </div>
+                        <div class="about__card">
+                            <span class="about__card-tag grad-tag--amber">Parallel Data</span>
+                            <p>Dask Distributed, DAG-based execution, out-of-core processing.</p>
+                        </div>
+                        <div class="about__card">
+                            <span class="about__card-tag grad-tag--violet">Formal Logic</span>
+                            <p>Propositional &amp; first-order logic, description logic, resolution proofs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <span class="section__eyebrow">Skills</span>
+                <h2 class="section__title">What I work with</h2>
+
+                <div class="skills__grid">
+                    <div class="ring__item" data-percent="90">
+                        <svg class="ring" viewBox="0 0 120 120">
+                            <circle class="ring__track" cx="60" cy="60" r="52"></circle>
+                            <circle class="ring__fill" cx="60" cy="60" r="52"></circle>
+                        </svg>
+                        <span class="ring__percent">90%</span>
+                        <span class="ring__label">Python</span>
+                    </div>
+                    <div class="ring__item" data-percent="85">
+                        <svg class="ring" viewBox="0 0 120 120">
+                            <circle class="ring__track" cx="60" cy="60" r="52"></circle>
+                            <circle class="ring__fill" cx="60" cy="60" r="52"></circle>
+                        </svg>
+                        <span class="ring__percent">85%</span>
+                        <span class="ring__label">TensorFlow / Keras</span>
+                    </div>
+                    <div class="ring__item" data-percent="80">
+                        <svg class="ring" viewBox="0 0 120 120">
+                            <circle class="ring__track" cx="60" cy="60" r="52"></circle>
+                            <circle class="ring__fill" cx="60" cy="60" r="52"></circle>
+                        </svg>
+                        <span class="ring__percent">80%</span>
+                        <span class="ring__label">C &amp; Kernel APIs</span>
+                    </div>
+                    <div class="ring__item" data-percent="82">
+                        <svg class="ring" viewBox="0 0 120 120">
+                            <circle class="ring__track" cx="60" cy="60" r="52"></circle>
+                            <circle class="ring__fill" cx="60" cy="60" r="52"></circle>
+                        </svg>
+                        <span class="ring__percent">82%</span>
+                        <span class="ring__label">CNN / RNN / LSTM</span>
+                    </div>
+                    <div class="ring__item" data-percent="78">
+                        <svg class="ring" viewBox="0 0 120 120">
+                            <circle class="ring__track" cx="60" cy="60" r="52"></circle>
+                            <circle class="ring__fill" cx="60" cy="60" r="52"></circle>
+                        </svg>
+                        <span class="ring__percent">78%</span>
+                        <span class="ring__label">Dask Distributed</span>
+                    </div>
+                    <div class="ring__item" data-percent="70">
+                        <svg class="ring" viewBox="0 0 120 120">
+                            <circle class="ring__track" cx="60" cy="60" r="52"></circle>
+                            <circle class="ring__fill" cx="60" cy="60" r="52"></circle>
+                        </svg>
+                        <span class="ring__percent">70%</span>
+                        <span class="ring__label">Knowledge Repr. &amp; Reasoning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <span class="section__eyebrow">Selected Work</span>
+                <h2 class="section__title">Things I've built</h2>
+
+                <div class="projects__grid">
+
+                    <article class="project__card">
+                        <span class="project__mark grad-tag--violet">01</span>
+                        <h3 class="project__title">Intelligent Workload Optimization System</h3>
+                        <p class="project__stack">C &middot; Linux Kernel API &middot; /proc &middot; dirent.h</p>
+                        <p class="project__desc">A high-performance userspace daemon that tackles resource contention and micro-stuttering in Ubuntu's Completely Fair Scheduler, iterating through <code>/proc</code> for zero-overhead process introspection.</p>
+                        <ul class="project__points">
+                            <li>Manual kernel introspection via <code>/proc</code> parsing</li>
+                            <li>Hardware CPU affinity via <code>sched_setaffinity</code></li>
+                            <li>Dynamic priority tuning via <code>setpriority</code></li>
+                        </ul>
+                    </article>
+
+                    <article class="project__card">
+                        <span class="project__mark grad-tag--pink">02</span>
+                        <h3 class="project__title">Smart-City CCTV Violence Detection Pipeline</h3>
+                        <p class="project__stack">Python &middot; TensorFlow/Keras &middot; MobileNetV2</p>
+                        <p class="project__desc">An end-to-end video classification pipeline judging CCTV footage across three classes: Normal, Violence, and Weaponized.</p>
+                        <ul class="project__points">
+                            <li>Frozen MobileNetV2 backbone for spatial features</li>
+                            <li>SimpleRNN vs. LSTM sequence models compared</li>
+                            <li><strong>98.3% test accuracy</strong>, 0.983 weighted F1-score</li>
+                        </ul>
+                    </article>
+
+                    <article class="project__card">
+                        <span class="project__mark grad-tag--amber">03</span>
+                        <h3 class="project__title">Parallel Weather Data Processing</h3>
+                        <p class="project__stack">Python &middot; Dask Distributed &middot; Pandas &middot; DAG</p>
+                        <p class="project__desc">A decoupled master-worker parallel pipeline benchmarked against sequential Pandas on a synthetic 3,000,000-record dataset.</p>
+                        <ul class="project__points">
+                            <li><strong>2.70&times; speedup factor</strong>, 63% runtime reduction</li>
+                            <li>Computations modeled as DAGs</li>
+                            <li>Safe out-of-core host memory management</li>
+                        </ul>
+                    </article>
+
+                    <article class="project__card">
+                        <span class="project__mark grad-tag--violet">04</span>
+                        <h3 class="project__title">KRR for Optimal Transport Selection</h3>
+                        <p class="project__stack">Propositional &amp; First-Order Logic &middot; Description Logic &middot; Resolution Proofs</p>
+                        <p class="project__desc">Real-world decision scenarios formalized across five knowledge representation paradigms.</p>
+                        <ul class="project__points">
+                            <li>Forward/backward chaining</li>
+                            <li>Resolution proofs in CNF</li>
+                            <li>Optimal choices under dynamic conditions</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== EDUCATION ====================-->
+        <section class="qualification section" id="education">
+            <div class="container">
+                <span class="section__eyebrow">Education</span>
+                <h2 class="section__title">Academic background</h2>
+
+                <div class="qualification__entry">
+                    <span class="qualification__rule"></span>
+                    <div class="qualification__content">
+                        <h3>Bachelor of Science in Artificial Intelligence (BS-AI)</h3>
+                        <span class="qualification__place">University of Sialkot</span>
+                        <span class="qualification__status">Completed 6th semester — entering 7th semester (final year)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <span class="section__eyebrow">Contact</span>
+                <h2 class="section__title">Let's talk</h2>
+
+                <div class="contact__grid">
+                    <div class="contact__info">
+                        <p class="contact__line"><span class="contact__key">Location</span><span class="contact__value">Sialkot, Pakistan</span></p>
+                        <p class="contact__line"><span class="contact__key">Email</span><span class="contact__value"><a href="mailto:talalnafees.ai@gmail.com">talalnafees.ai@gmail.com</a></span></p>
+                        <p class="contact__line"><span class="contact__key">Phone</span><span class="contact__value"><a href="tel:+923275964246">0327 5964246</a></span></p>
+                    </div>
+
+                    <form class="contact__form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" name="name" class="contact__form-input" placeholder="Your name" required>
+                        </div>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Email</label>
+                            <input type="email" name="email" class="contact__form-input" placeholder="your@email.com" required>
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Message</label>
+                            <textarea name="message" cols="0" rows="5" class="contact__form-input" placeholder="Tell me a bit about the opportunity" required></textarea>
+                        </div>
+                        <button type="submit" class="button contact__button" id="contact-submit">Send message</button>
+                        <p class="contact__form-status" id="contact-status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="container footer__container">
+            <p class="footer__title">Talal Nafees</p>
+            <p class="footer__copy">&copy; <span id="year"></span> All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">&uarr;</a>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
