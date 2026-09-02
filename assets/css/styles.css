@@ -794,8 +794,10 @@ code {
   .home__stats { grid-template-columns: 1fr; gap: 1.2rem; }
 }
 .home__buttons {
-    display: flex;
-    justify-content: center; 
-    gap: 1.5rem;             
-    flex-wrap: wrap;        
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 1.5rem !important;
+    flex-wrap: wrap !important;
 }
