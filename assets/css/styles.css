@@ -793,3 +793,9 @@ code {
   .about__cards { grid-template-columns: 1fr; }
   .home__stats { grid-template-columns: 1fr; gap: 1.2rem; }
 }
+.home__buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 1.5rem;             
+    flex-wrap: wrap;        
+}
